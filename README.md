@@ -8,10 +8,10 @@ I build small, creative UI components, layouts, and mini-projects every day to i
 ✅ No frameworks, only HTML & CSS
 
 📂 Projects
-Day 1 – 🎲 Dice Faces (All 6 dice faces made with HTML & CSS only)
-Day 2 – 🔘 Glow Buttons (hover effects with glowing animation)
-Day 3 – 🎨 Color Palettes (CSS palette UI design)
-Day 4 – ⏰ Analog Clock UI (static UI with HTML & CSS only, not functional)
+Day 1 – 🎲 Dice Faces (All 6 dice faces made with HTML & CSS only) 
+Day 2 – 🔘 Glow Buttons (hover effects with glowing animation) 
+Day 3 – 🎨 Color Palettes (CSS palette UI design) 
+Day 4 – ⏰ Analog Clock UI (static UI with HTML & CSS only, not functional) 
 (More projects coming daily...)
 
 🚀 Goals
