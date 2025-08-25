@@ -1,0 +1,44 @@
+body {
+  background-color: beige;
+  height: 100vh;
+  margin: 3px;
+  /* font-family: Arial, sans-serif; */
+}
+
+.navbar {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 190px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.navbar h1 {
+  color: rgb(255, 229, 82);
+  cursor: pointer;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#search {
+  width: 200px;
+  height: 15px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  position: relative;
+  left: 180px;
+}
