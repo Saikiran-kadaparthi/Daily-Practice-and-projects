@@ -1,0 +1,243 @@
+*{
+    /* font-family: "Segoe UI", sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+body, html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+
+}
+#title{
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    color: black;
+}
+html{
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
+
+}
+.login-card{
+    width: 250px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.2);
+     border: 2px solid rgb(0, 0, 0, 0.3);
+    border-radius: 40px 40px 40px 40px;
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    animation: float 10s ease infinite;
+
+
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0)  rotate(0);
+
+    }
+
+    50% {
+        transform: translateY(-5px)  rotate(-1deg);
+    }
+}
+
+/* .login-card:hover{
+    transform: rotateX(-9deg) rotateY(9deg);
+
+} */
+/* .input input{
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+} */
+
+
+#login{
+    position: absolute;
+    top: 60%;
+    left: 50%; 
+    translate: -50% -50%;  
+    width: 170px;
+    height: 40px;
+    padding: 0;
+    margin: 0px;
+    border: 2px solid transparent;
+    font-size: 15px ;
+    border-radius: 100px;
+    cursor: pointer;
+    /* background: linear-gradient(45deg, #6a11cb,#2575fc); */
+    /* background: linear-gradient(to right, #8648c9, #ea2fea); */
+    /* background: white; */
+    background-size: 200% 100%; 
+    background-position: left;
+    transition: 0.5s  ; 
+    
+
+}
+#login:hover{
+
+    box-shadow: inset 0 0 40px rgb(130, 127, 127);
+    border: 1px solid rgb(130, 127, 127);
+
+}
+
+/* @keyframes hoverlogin {
+
+    0% {    background: linear-gradient(to right, #8648c9, #ea2fea); }
+    100% {     background: linear-gradient(to right, #8648c9, #ea2fea);}
+} */
+
+#password{
+    border-radius: 100px;
+    background-color: rgba(225,225, 225, 0.3);
+    border: 1px solid transparent; 
+}#username{
+    border-radius: 100px;
+    background-color: rgba(225,225, 225, 0.3);
+    border: 1px solid transparent;  
+}
+#username::placeholder{
+    color:  rgb(216, 216, 216);
+}#password::placeholder{
+    color:  rgb(216, 216, 216);
+}
+#forgot{
+    position: absolute;
+    top: 210px;
+    right: 44px;
+    cursor: pointer;
+    font-size: 13px;
+    color: blue;
+
+}
+.Text{
+    position: absolute;    
+    left:10px;
+    font-size: 13px;
+
+}
+
+#TextID1{
+    /* color: white; */
+    top: 100px;
+    left: 50px;
+    font-size: 15px;
+}#TextID2{
+    top: 154px;
+    left: 50px;
+    font-size: 15px;
+}
+
+.username{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 50px;
+    top: 124px;  
+    border-radius: 5px;
+    /* border: 2px  solid black; */
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1), inset 2px 2px 5px rgba(255,255,255,0.4);
+
+
+}
+.password{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    position: absolute;
+    left: 50px;
+    top: 178px;  
+    border-radius: 5px;
+    /* border: 2px  solid black; */
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1), inset 2px 2px 5px rgba(255,255,255,0.4);
+
+
+
+}
+
+.input{
+    width: 220px;
+    padding: 5px 9px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+        background: #fff;
+    border-radius: 8px;
+    /* padding: 10px 15px; */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: 0.2s;
+
+
+} 
+
+
+
+.signup{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.google{
+    top: 340px;
+    left: 35% ;
+    translate: -50% -50%;
+    background-image: url(google.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}.facebook{
+    top: 340px;
+    left: 50%;
+    translate: -50% -50%;
+    background-image: url(facbook.webp);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}.twitter{
+    top: 340px;
+    left: 65%;
+        translate: -50% -50%;
+        background-image: url(twittertwo.png);
+        background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+
+.Or1{
+    position: relative;
+    top: 200px;
+    font-size: small;
+    color: rgb(212, 212, 212);
+}
+.Or2{
+    position: relative;
+    top: 200px;
+    font-size: small;
+    color: #000000;
+    top: 270px;
+    font-size: 10px;
+}
+
+#signupa{
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
