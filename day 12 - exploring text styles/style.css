@@ -1,0 +1,134 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12rem;
+    place-items: center;            
+    min-height: 100vh;
+    background-color: grey;
+    padding: 1rem;
+}
+.one{
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+
+}.two{
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke: 5px black;
+    color: transparent;
+
+}
+.three{
+    font-size: 100px;
+    font-weight: 900;
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+
+}
+.image1{
+    font-size: 150px;
+    font-weight: 900;
+    background-image: url(images\ \(31\).jpeg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.gradient {
+  font-size: 120px;
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.shadow {
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+
+@keyframes move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.animated {
+  font-size: 120px;
+  font-weight: 900;
+  background: linear-gradient(270deg, #ff6a00, #ee0979, #00f2ff);
+  background-size: 600% 600%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: move 5s linear infinite alternate;
+}
+
+.neon {
+  font-size: 100px;
+  font-weight: 900;
+  color: #0ff;
+  text-shadow: 
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;
+}
+
+
+.outline {
+  font-size: 100px;
+  font-weight: 900;
+  color: yellow;
+  -webkit-text-stroke: 3px black;
+}
+
+.glass1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.fire {
+  font-size: 100px;
+  font-weight: 900;
+  color: orange;
+  text-shadow:
+    0 0 5px orange,
+    0 0 10px red,
+    0 0 20px yellow;
+  animation: flicker 0.1s infinite;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.7;
+  }
+}
+
+.depth {
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 
+    2px 2px 0 #000,
+    4px 4px 0 #444,
+    6px 6px 0 #888;
+}
