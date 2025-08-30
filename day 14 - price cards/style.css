@@ -1,0 +1,134 @@
+body,html{
+    display: flex;
+    margin: 0;
+    background-color: #19223F;  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 80px;
+    }
+
+.card{
+    width: 300px;
+    height: 500px;
+    /* background-color: transparent; */
+    border: 15px solid #1E2C49;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 0.3s;
+    flex-direction: column;
+    /* box-shadow: inset 0 0 0 15px #1E2C49; */
+}
+.card2{
+    width: 300px;
+    height: 500px;
+    /* background-color: transparent; */
+    border: 15px solid #1E2C49;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: 0.3s;
+    flex-direction: column;
+    /* box-shadow: inset 0 0 0 15px #1E2C49; */
+    transform: scale(1.1);
+}
+.card:hover{
+    border-color: #7838F3 ;
+
+}
+.card2:hover{
+    border-color: #7838F3 ;
+
+}
+
+
+.main1 {
+    width: 100%;
+    height: 60%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.084);
+
+}
+.plan-name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.storage{
+    color: wheat;
+    margin-top: 0px;
+    margin: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.storage .number1{
+    font-size: 80px;
+}
+.storage .unit{
+    font-size: 40px;
+}
+.next-price{
+    margin: 0;
+    color: white;
+    /* font-size: px; */
+
+}
+
+.button{
+    margin-top: 40px;
+    width: 160px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #7838F3;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    /* font-weight: 100; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.card:hover .button{
+    background-color: #7838F3;
+}
+.card2:hover .button{
+    background-color: #7838F3;
+}
+
+
+.features-list{
+    width: 100%;
+    flex: 1;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-list #unit{
+    color: white;
+    font-size: 15px;
+    margin : 10px ;
+    margin-top: 50px;
+}
+.features-list #credits {
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+} 
+.features-list #support {
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+} 
