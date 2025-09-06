@@ -1,0 +1,15 @@
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: grey;
+}
+
+.big1{
+    font-size: 100px;
+    color: rgb(243, 243, 111);
+    background-color: rgb(144, 246, 246);
+}
+
+#text1{
+    font-size: 50px;
+}
