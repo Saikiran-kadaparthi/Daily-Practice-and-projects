@@ -1,0 +1,829 @@
+body, html {
+    background-color: #1F1F1F;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 25px 0px 25px 0px;
+}
+
+nav{
+    flex : 2;
+    text-align: right; 
+
+}
+
+.header ul{
+    display : inline-block;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #bde3fc;
+    font-size: 20px;
+    
+
+
+}
+.header ul li a:hover{
+    color: #98d3fa;
+    text-decoration: underline;
+}
+
+
+.logo
+{
+    font-size: 2.5rem;
+    color: #98d3fa;
+}
+
+
+@media screen and (max-width: 750px) 
+{
+
+.header ul
+{
+    display: none;
+}
+
+.header
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px ;
+}
+
+.logo
+{
+    margin-left: 15%;
+}
+
+.heroimg
+{
+    width: 100px;
+}
+
+}
+
+.hero{
+    height: 90vh;
+    width: 90%;
+        margin: 0px 20px 0 150px;
+        padding: 50px 150px 220px 100px;
+
+}
+
+.hero h1{
+    font-size: 35px;
+    color: #ffffff;
+    
+}
+.hero h2{
+    color: #fff ;
+    font-size: 35px;
+    margin: 0;
+}
+.hero .subtext
+{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.hero-text{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-text div button
+{
+    display: inline;
+    padding: 10px 40px;
+    font-size: 15px;
+    background: #B6BBBF;
+    border-radius: 100px;
+    /* border: 2px solid black; */
+    border: none;
+    cursor: pointer;
+
+
+}
+.hero-text div button:hover
+{
+    background: #e6e8e9;
+   
+}
+
+.hero-dis
+{
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15%;
+
+}
+
+.hero-dis img
+{
+    width: 450px;
+    display: inline;
+}
+
+
+
+
+.collections
+{
+    /* height: ; */
+    /* background: linear-gradient(#757575, #757575); */
+    /* background-color: #F8F8F8; */
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+
+}
+.collections h3
+{
+    font-size: 35px;
+    color: white;
+}
+
+.collection-first
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+
+}
+
+.collection-first img{
+    border-radius: 100px;
+}
+ 
+
+.collection-first .img1,
+.collection-first .img2,
+.collection-first .img3{
+    border-radius: 30px;
+    height : 350px; 
+    border: 2px solid black; 
+    background-color: #292929;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    font-size: 30px; 
+    padding-top: 10px; 
+    color: white; 
+    position: relative; 
+    transition: transform 0.5s, height 0.2s; 
+    cursor: pointer; 
+}
+
+.collection-first .img1:hover,
+.collection-first .img2:hover,
+.collection-first .img3:hover
+{
+    transform: scale(1.1);
+}
+
+
+.story
+{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 150px 150px 220px 300px;
+    gap: 150px;
+
+
+}
+
+
+.story-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.story-text h2{
+    font-size: 45px;
+    border-top: 3px solid #EFBE8A;
+
+
+}
+.story-text h3{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.story-text p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.story-text .discover button{
+    display: inline;
+    padding: 10px 40px;
+    font-size: 15px;
+    background: #B6BBBF;
+    border-radius: 100px;
+    /* border: 2px solid black; */
+    border: none;
+    cursor: pointer;
+}
+.story-text .discover button:hover{
+    background-color: #e6e8e9;
+}
+
+.on-wrist-bg
+{
+    background: #EFBE8A;
+}
+
+.on-wrist-img{
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.trending-head
+{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 1px solid orange;
+}
+
+.treding
+{
+    padding: 100px 200px;
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.trending-first
+{
+    /* border : 2px solid yellow; */
+    height: auto;
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 95px;
+}
+.trending-second
+{
+    height: auto;
+    display: flex;
+    flex : 1;
+    justify-content: center;
+    gap: 25px;
+    margin-top : 20px
+}
+
+
+.trending-img1,
+.trending-img2,
+.trending-img3,
+.trending-img4
+{
+    position: relative;
+    font-size: 20px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #292929;
+    padding: 25px 35px;
+    transition: height 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap : 30px;
+    align-items: center;
+    overflow: hidden;
+}
+.trending-img1:hover,
+.trending-img2:hover,
+.trending-img3:hover,
+.trending-img4:hover
+{
+    color: black;
+    background: #EFBE8A;
+    height: 400px;
+}
+
+/* NEW */
+.trending-img1 span,
+.trending-img2 span,
+.trending-img3 span,
+.trending-img4 span
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 11px ;
+    color : white;
+    background: #EFBE8A;
+    width: auto;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.trending-img1:hover span,
+.trending-img2:hover span,
+.trending-img3:hover span,
+.trending-img4:hover span
+{
+    color: white;
+    background: black;
+}
+
+
+/* button */
+.trending-img1 button,
+.trending-img2 button,
+.trending-img3 button,
+.trending-img4 button
+{
+    display: none;
+    font-size: 14px ;
+    color : rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.trending-img1:hover button,
+.trending-img2:hover button,
+.trending-img3:hover button,
+.trending-img4:hover button
+{
+    display: block;
+
+}
+
+.Subscribe
+{
+    height : 60vh;
+    /* background-color: orange; */
+    margin-top: 0px;
+    padding: 60px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Subscribe-head-subhead
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color : rgb(77, 77, 77);
+    font-size: 18px;
+    width: 100%;
+}
+.subscribe-bar
+{
+    padding: 15px 10px 10px 100px;
+    width: 70%;
+    height: 100%;
+    background-color: #EFBE8A;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+}
+
+.Subscribe-text
+{
+    color: black;
+    font-size:50px ;
+}
+
+.inputbar
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.inputbar input
+{
+    border: none;
+    padding: 10px;
+    flex :1;
+    width: 2000px;
+    outline: none;
+    height: 45px;
+}
+.input-btn
+{
+    height: 50px;
+    width: 120px;
+    background-color: Grey;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+
+.about
+{
+    height: 30vh;
+    margin-top: 0px;
+    padding: 100px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:100px;
+    /* background-color: #fff; */
+    margin: 0 100px;
+    border-bottom: 2px solid grey;
+}
+
+.info, 
+.aboutus,
+.product,
+.social{
+    width: 140px;
+    height: 200px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    color: rgb(120, 115, 115);
+    gap: 3px;
+}
+
+.info h2, 
+.aboutus h2,
+.product h2,
+.social h2{
+    color : white;
+    margin-bottom: 25px ;
+    border-bottom: 2px solid rgb(104, 104, 104);
+}
+
+.footer
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer h3{
+    color: rgb(94, 93, 93);
+}
+
+
+/* LOGIN & Register */
+.login-page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.register-page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    display: none;
+}
+
+.login-1form
+{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 25px 55px;
+    gap: 5px;
+    flex-direction: column;
+
+}
+
+.loginhead
+{
+    border-bottom: 1px solid black;
+    font-size: 45px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.loginset,
+.passwordset
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 5px;
+    position: relative;
+
+}
+.loginset input,
+.passwordset input
+
+{
+    width: 98%;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 15px;
+}
+
+.loginset span,
+.passwordset span{
+    margin-left: 15px;
+}
+
+.passwordset a
+{
+    position: absolute;
+    right: 10px;
+    bottom: -25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.login_and_pass-set
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+
+.loginbtnset
+{
+    display: flex;
+    justify-content: center;
+}
+.loginbtn
+{
+    margin-top: 30px;
+    width: 78%;
+    height: 75%;
+    border-radius: 100px;
+    background: linear-gradient(to right, #EFBE8A, #cd771b);
+    border: none;
+    border-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+.register-button
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 5px;
+}
+
+.register-button button
+{
+    padding: 8px 35px;
+    background: linear-gradient(to right, #EFBE8A, #cd771b);
+    border: transparent;
+    border-radius: 10px;
+    transition: transform 0.2s, font-size 0.2s;
+    cursor: pointer;
+}
+.register-button button:hover
+{
+    transform: scale(1.1);
+}
+
+.orloginin
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.orloginoptions
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.socials
+{
+    background-color: white;
+    color: black;
+    padding: 8px 35px;
+    border-radius: 5px;
+    color: rgb(132, 108, 108);
+    transition: transform 0.2s;
+    cursor: pointer;
+
+}
+
+.socials:hover
+{
+    background-color: #EFBE8A;
+    transform: scale(1.1);
+}
+
+/* CART */
+
+.cart-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.cart-page .header
+{
+    margin-bottom: 45px;
+}
+
+.login-first
+{
+    font-size: 20px;
+    color: grey;
+
+}
+
+.cart-total
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.cart-total h3{
+    color: rgb(172, 172, 172);
+}
+
+.cart-total button
+{
+    padding: 10px 25px;
+    margin-top: 35px;
+    background-color: transparent;
+    border: 2px solid grey;
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cart-items-section
+{
+    display: flex;
+    max-width: 1000%;
+    width: 100vw;
+    /* height: 60vh; */
+    margin-top: 40px;
+}
+
+.cart-items-list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.item
+{
+    margin-left: 50%;
+    display: flex;
+    gap: 10px;
+    padding: 5px 5px 15px 5px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.cart-item-information
+{   
+    display: flex;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: rgb(239, 239, 239);
+    gap: 100px;
+    height: 30%;
+}
+.cart-item-count
+{
+    display: flex;
+    gap: 10px;
+}
+
+.cart-item-count button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px ;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid grey;
+    color: white;
+    cursor: pointer;
+}
+
+.price-and-remove button
+{
+    color: black;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: rgb(227, 67, 67);
+    padding: 3px 4px;
+    display: flex;
+    gap: 1-px;
+    cursor: pointer;
+
+
+}
+
+.extra-info
+{
+    color: rgb(98, 98, 98);
+    position: absolute;
+    bottom: 15px;
+    left: 130px;
+    font-size: 12px;
+}
+
+.cart-checkout
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    margin-top: 50px;
+    gap: 30px;
+}
+.cart-checkout-info
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    gap: 10px;
+}
+
+/* .register-form
+{
+    display: none;
+} */
