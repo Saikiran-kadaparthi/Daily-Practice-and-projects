@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html
+{
+    background: #181827;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.circle-one
+{
+    width: 40vw;
+    height: 40vw;
+    background: linear-gradient(rgb(0, 255, 34), rgb(0, 70, 246));
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    left: -10%;
+}
+
+.circle-two
+{
+    width: 40vw;
+    height: 40vw;
+    background: linear-gradient(rgb(184, 80, 132), rgb(255, 251, 0));
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+}
+
+.card
+{
+    width: 510px;
+    height: 280px;
+    background-color: #242432 ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.card .top
+{
+    height: 20%;
+    width: 100%;
+
+}
+
+.card .symbol-span
+{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    display: flex;
+    gap: 3px;
+}
+
+.symbol1,
+.symbol2,
+.symbol3
+{
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.top
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.master-card-logo
+{
+    position: relative;
+    top: 25px;
+}
+
+.logo-circle-one
+, .logo-circle-two
+{
+    width: 50px;
+    height: 50px;
+    background-color: #db3939;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.logo-circle-one
+{
+    position: absolute;
+    left: 400px;
+    background-color: rgb(249, 162, 0);
+}
+.logo-circle-two
+{
+    
+    background-color: rgba(237, 0, 8, 0.8);
+    position: absolute;
+    left: 370px;
+}
+
+.bottom
+{
+    width: 100%;
+    height: 30%;
+}
+
+.bottom-part-one
+{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    gap: 55%;
+    font-size: 30px;
+    color: white;
+}
+.bottom-part-two
+{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    padding-left: 35px;
+}
+
+.
